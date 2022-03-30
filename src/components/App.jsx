@@ -28,7 +28,7 @@ function App() {
                         id={index}
                         title={note.title}
                         content={note.content}
-                        handleDelete={deleteNote}
+                        onDelete={deleteNote}
                     />
                 )}
             </div>
